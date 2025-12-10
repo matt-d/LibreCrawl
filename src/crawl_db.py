@@ -10,7 +10,7 @@ from datetime import datetime
 from contextlib import contextmanager
 
 # Database file location (same as auth database)
-DB_FILE = 'users.db'
+DB_FILE = '/app/data/users.db'
 
 @contextmanager
 def get_db():
